@@ -21,7 +21,7 @@ def process_file(file_name)
 			file = File.open(file_name)
 			unless file.eof?
 				file.each_line do |line|
-					# do something for each line (if using windows)
+					# do something for each line (if using windows) 
 				end
 			end
 			file.close
